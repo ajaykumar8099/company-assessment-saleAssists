@@ -1,0 +1,241 @@
+@media only screen and (max-width: 767px) {
+  .list-container {
+    list-style-type: none;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 16px 0px #e3ebed;
+    width: 100%;
+    background-color: white;
+  }
+  .image {
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+  }
+  .time-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  .time {
+    color: #19043a;
+    font-family: 'Roboto';
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0px 4px 16px 4px #e3ebed;
+    padding: 10px;
+    border-radius: 13px;
+  }
+  .review-heading {
+    font-size: 15px;
+    color: rgb(20, 1, 1);
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-style: italic;
+    line-height: 1.5;
+    text-align: center;
+  }
+  .review-details-container {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Roboto';
+    padding: 10px;
+    border-radius: 12px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+  }
+  .name-heading {
+    font-size: 15px;
+    color: #5f0101;
+    font-weight: 900;
+  }
+  .sub-review-container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+
+  .span-rating-paltform {
+    color: #d86c06;
+    font-size: 14px;
+    font-family: 'Roboto';
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+
+  .rating-platform {
+    color: #053b3f;
+    font-size: 14px;
+    font-family: 'Roboto';
+    font-weight: 600;
+    margin-top: 15px;
+  }
+  .link {
+    text-decoration: none;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: 'Caveat';
+    font-weight: 900;
+    font-size: 24px;
+    color: #2a058f;
+  }
+  .rating-container {
+    display: flex;
+    align-items: center;
+    background-color: #3b82f6;
+    border-radius: 6px;
+    padding: 5px;
+  }
+
+  .rating {
+    color: #ffffff;
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: 500;
+    margin-right: 4px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 17px;
+  }
+  .star {
+    height: 15px;
+    width: 15px;
+    margin-bottom: 3px;
+  }
+
+  span {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+  }
+  .arrow {
+    padding-left: 10px;
+  }
+
+  .span-calender {
+    margin-right: 8px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .list-container {
+    list-style-type: none;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 16px 0px #e3ebed;
+    width: 40%;
+    background-color: white;
+  }
+  .image {
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+  }
+  .time-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  .time {
+    color: #19043a;
+    font-family: 'Roboto';
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0px 4px 16px 4px #e3ebed;
+    padding: 10px;
+    border-radius: 13px;
+  }
+  .review-heading {
+    font-size: 17px;
+    color: rgb(20, 1, 1);
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-style: italic;
+    line-height: 1.5;
+    text-align: center;
+  }
+  .review-details-container {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Roboto';
+    padding: 10px;
+    border-radius: 12px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+  }
+  .name-heading {
+    font-size: 18px;
+    color: #5f0101;
+    font-weight: 900;
+  }
+  .sub-review-container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+
+  .span-rating-paltform {
+    color: #d86c06;
+    font-size: 16px;
+    font-family: 'Roboto';
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+
+  .rating-platform {
+    color: #053b3f;
+    font-size: 16px;
+    font-family: 'Roboto';
+    font-weight: 600;
+    margin-top: 15px;
+  }
+  .link {
+    text-decoration: none;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: 'Caveat';
+    font-weight: 900;
+    font-size: 24px;
+    color: #2a058f;
+  }
+  .rating-container {
+    display: flex;
+    align-items: center;
+    background-color: #3b82f6;
+    border-radius: 6px;
+    padding: 8px;
+  }
+
+  .rating {
+    color: #ffffff;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 500;
+    margin-right: 4px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 17px;
+  }
+  .star {
+    height: 20px;
+    width: 20px;
+    margin-bottom: 3px;
+  }
+
+  span {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+  }
+  .arrow {
+    padding-left: 10px;
+  }
+
+  .span-calender {
+    margin-right: 8px;
+  }
+}
