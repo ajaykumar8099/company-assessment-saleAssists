@@ -1,15 +1,5 @@
 In this project, I build a **Feedback App** by applying the concepts that are given by Company.
 
-### Design Files
-
-<details>
-<summary>Click to view</summary>
-
-- [Extra Small (Size < 576px) and Small (Size >= 576px)](https://assets.ccbp.in/frontend/content/react-js/feedback-app-sm-outputs.png)
-- [Medium (Size >= 768px), Large (Size >= 992px) and Extra Large (Size >= 1200px) - Feedback Question](https://assets.ccbp.in/frontend/content/react-js/feedback-app-question-lg-output.png)
-- [Medium (Size >= 768px), Large (Size >= 992px) and Extra Large (Size >= 1200px) - Thank You Screen](https://assets.ccbp.in/frontend/content/react-js/feedback-app-summary-lg-output-v2.png)
-</details>
-
 ### Set Up Instructions
 
 <details>
@@ -37,12 +27,12 @@ The app must have the following functionalities
   |     Key      |    Data Type     |
   | :----------: | :--------------: |
 
-  |    Name   | String |
-  | Company |      String      |
-  | Rating |      Number      |
-  | dateCreated |      String     |
-  | Reviews |      String     |
-  | platform |      String     |
+  |    Name   |      String   |
+  | Company   |     String    |
+  | Rating    |     Number    |
+  | dateCreated |   String    |
+  | Reviews   |     String    |
+  | platform  |      String   |
   
 
 </details>
