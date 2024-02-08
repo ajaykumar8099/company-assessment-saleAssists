@@ -52,7 +52,9 @@ const FeedbackItem = props => {
         <div className="sub-review-container">
           <div className="rating-container">
             <p className="rating">
-            <span className="mobile-hide-rating"> Rating: </span/> {rating}</p>
+              <span className="mobile-hide-rating"> Rating: </span/>
+              {rating}
+            </p>
             <img
               src="https://assets.ccbp.in/frontend/react-js/star-img.png"
               alt="star"
