@@ -40,6 +40,7 @@
   }
   .review-details-container {
     display: flex;
+    flex-direction:column;
     justify-content: space-between;
     font-family: 'Roboto';
     padding: 10px;
@@ -51,11 +52,14 @@
     font-size: 15px;
     color: #5f0101;
     font-weight: 900;
+    text-align:center;
+    margin-bottom:10px;
   }
   .sub-review-container {
     display: flex;
     justify-content: space-between;
-    flex-direction: column;
+    align-items:center;
+    padding-left:12px;
   }
 
   .span-rating-paltform {
@@ -79,7 +83,7 @@
     margin-bottom: 10px;
     font-family: 'Caveat';
     font-weight: 900;
-    font-size: 24px;
+    font-size: 20px;
     color: #2a058f;
   }
   .rating-container {
@@ -88,6 +92,7 @@
     background-color: #3b82f6;
     border-radius: 6px;
     padding: 5px;
+    margin-right:10px;
   }
 
   .rating {
@@ -101,9 +106,13 @@
     margin-left: 17px;
   }
   .star {
-    height: 15px;
-    width: 15px;
+    height: 12px;
+    width: 12px;
     margin-bottom: 3px;
+    padding:4px;
+  }
+  .mobile-hide-rating{
+    display:none;
   }
 
   span {
