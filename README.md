@@ -9,6 +9,7 @@ In this project, I build a **Feedback App** by applying the concepts that are gi
 - Start up the app using `npm start`
 - install `npm axios`
 - additionally install `npm install react-loader-spinner@4.0.0`
+- install `npm install react-icons`
 </details>
 
 ### Completion Instructions
