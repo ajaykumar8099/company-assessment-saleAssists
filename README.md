@@ -1,4 +1,5 @@
-In this project, I build a **Feedback App** by applying the concepts that are given by Company.
+In this project, I build a **Feedback App** by applying the concepts that are given by Company. Here we Get Backend Reviews data through given Api, Access the data in react.js
+using axios.get method. here we are using functional components to display the UI.
 
 ### Set Up Instructions
 
@@ -21,7 +22,7 @@ In this project, I build a **Feedback App** by applying the concepts that are gi
 The app must have the following functionalities
 
 - When Page is Opened, then make an API Call using axios.get method
-- update the state using useState of method with responseData to feedackData, pass this feedackData to FeedbackItem Component   
+- maintain the data in react state. update the state using useState of method with feedackData to responseData, pass this feedackData to FeedbackItem Component   
 - The `FeedbackItem` component receives the `feedackDetails` as a prop. It consists of the following properties
 - in additionally used react-loader-spinner to show loading while api is fetching
 
